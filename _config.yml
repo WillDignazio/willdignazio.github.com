@@ -4,13 +4,13 @@ permalink: /posts/:title
 auto: true
 rdiscount:
   extensions: [smart]
-title : Carlos Becker
-production_url : http://caarlos0.github.com
-description: "Througths, flamewars, utilities, tutorials, codes, projects and other things by Carlos Alexandro Becker."
-disqus_shortname: caarlos0blog
-analytics: UA-32899481-1
-gauges: 50f2b533613f5d7c8000000c
+title : Will Dignazio
+production_url : http://slackwill.com
+description: "Technical insights, projects, and creativity."
+disqus_shortname: slackwill.com
+analytics: UA-39320049-1
+gauges:
 author :
-  name : Carlos Alexandro Becker
-  github : caarlos0
-  twitter : caarlos0
+  name : Will Dignazio
+  github : WillDignazio
+  twitter : WillDignazio
