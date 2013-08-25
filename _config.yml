@@ -1,16 +1,25 @@
-markdown: rdiscount
-pygments: true
-permalink: /posts/:title
-auto: true
+title:            Slackblog
+description:      Will Dignazio's Tech Blog
+url:              slackwill.com	  
+signoff:          Will Dignazio <wdignazio@gmail.com>
+disqus_shortname: slackwill.com # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: UA-39320049-1 # set tracking, remove from /javascripts/basic.js if unwanted.
+
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          http://muan.co
+    external:     true
+  - name:         Email
+    url:          mailto:hello@muan.co
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/muan
+    external:     true
+pygments:         true
+permalink:        pretty
+markdown:         rdiscount
 rdiscount:
-  extensions: [smart]
-title : Will Dignazio
-production_url : http://slackwill.com
-description: "Technical insights, projects, and creativity."
-disqus_shortname: slackwill.com
-analytics: UA-39320049-1
-gauges:
-author :
-  name : Will Dignazio
-  github : WillDignazio
-  twitter : WillDignazio
+  extensions:     [smart]

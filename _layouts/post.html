@@ -1,19 +1,35 @@
----
-layout: layout
----
+<html>
+  <head>
+    <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <div id='container'>
+      {% include links.html %}
+      {% include pages.html %}
+      <div class="content">
+        <section class='post'>
+          <h1 class="upcase">
+            <div class='date'>{{ page.date | date_to_string }}</div>
+            {{ page.title }}
+          </h1>
+          {{ content }}
+          {% include signoff.html %}
 
-<section class="content">
-  <h1>
-    <a href="{{ page.url }}">{{ page.title }}</a>
-  </h1>
 
-  <section class="byline">
-    {{ page.date | date: "%B %e, %Y" }}
-  </section>
+        </section>
+      </div>
+      {% if page.share == 'y' %}
+        {% include share.html %}
+      {% endif %}
 
-  {{ content }}
-  <div class="pull"></div>
-  {% include twitter.html %}
-  <hr>
-  {% include disqus.html %}
-</section>
+      {% if page.disqus == 'y' %}
+        {% include disqus.html %}
+      {% endif %}
+      {% include links.html %}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
