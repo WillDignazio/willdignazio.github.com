@@ -10,13 +10,13 @@ links:
   - name:         About
     url:          /about
   - name:         Blog
-    url:          http://muan.co
+    url:          http://www.slackwill.com/
     external:     true
   - name:         Email
-    url:          mailto:hello@muan.co
+    url:          mailto:wdignazio@gmail.com
     external:     true
   - name:         GitHub
-    url:          http://github.com/muan
+    url:          http://github.com/WillDignazio
     external:     true
 pygments:         true
 permalink:        pretty
