@@ -8,14 +8,14 @@ Will Dignazio is a Computer Science student at the <a href="http://rit.edu">Roch
 which as the name implies, is in Rochester, NY. Will has several years experience in software development,
 typically focussing his efforts on systems programming, and tinkering with the Linux kernel. His more recent
 experiences have been in direct cooperation with the 
-<a href="http://csh.rit.edu/">Computer Science House</a>, which is located on the RIT campus. Currently he is
+<a href="http://csh.rit.edu/">Computer Science House</a>, which is located on the RIT campus. His experience includes
 heading the sysadmins, as the <a href="http://www.csh.rit.edu/committees">OpComm Director</a>, managing,
 improving, and purchasing house equipment.
 
 
 ### $ tail -f ./slackwill.log
-Currently he is seeking coop opportunities, and is about to embark on a six month coop study with 
-<a href="http://exablox.com/">Exablox</a> this June. His goal is to delve into preferably 
+Currently he is seeking coop opportunities, and is about to currently on a six month coop study with 
+<a href="http://exablox.com/">Exablox</a>. His goal is to delve into preferably 
 <a href="http://opensource.org/">Open Source</a> systems programming, and more specifically, file system
 development for <a href="http://www.unix.org/">Unix</a> compliant operating systems.
 
