@@ -1,3 +1,9 @@
+---
+layout: pot
+title: DCPU - Intro
+categroy: posts
+---
+
 DCPU - Intro
 ===========
 ---
