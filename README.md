@@ -1,62 +1,58 @@
-Scribble
-========
+# hikari
 
-A jekyll theme. [Want a demo? click and read instruction. :point_left:](http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/)
-<br />(I am currently working on a collection of themes, here's [a preview for one of them](http://themes.muan.co/personal/2013/05/19/sore-throat/). You know how to [stay](https://twitter.com/muanchiou) [posted](https://github.com/muan). :flushed: )
+Hikari is an open-source [Jekyll](http://jekyllrb.com) theme perfect for bloggers and developers who want the best of both worlds: sharing snippets and stories/pictures of their latest vacation in Tokyo (that's just for the example, you may want to go to Kyoto too). 
 
-![screenshot](http://scribble.muan.co/images/screenshot.png)
+But Hikari is also:
 
-There is no clever design philosophy to talk about, I tried to find something to work with, and 'scribble' came to my mind. 
+- Simple & elegant
+- Fluid, responsive
+- Lightweight (no JS library has been abused during the development of this theme thanks to my buddy [Julien](https://github.com/evarouss))
+- & packed with syntax highlighting for you coders (thanks to Jekyll & Pygments)
 
-This theme uses Open Sans powered by Google Web Fonts, and was written in plain HTML, SCSS & CoffeeScript, though .scss & .coffee files wouldn't be included in the theme. 
+[View demo](http://m3xm.github.io/hikari-for-Jekyll)
 
-The theme is mobile optimised but I did not check browser compatibility. It looks great in Chrome, Safari and Firefox though.
 
----
+### How to install
 
-### Get started
+1. Clone this repo
+2. Customize \_config.yml and \_includes/header.html
+3. Publish (with Github Pages, it's free!) :)
 
-1. [Fork the repository](https://github.com/muan/scribble/fork).
-2. Clone the repository to your computer.<br /> `git clone https://github.com/username/scribble`
-3. `bundle install`
-4. **Using older versions of Jekyll**<br />
-  Build and run jekyll using `jekyll --server --auto`.<br />
-  **Using [Jekyll 1.0](http://blog.parkermoore.de/2013/05/06/jekyll-1-dot-0-released/)**<br />
-  Build Jekyll using `jekyll build`.<br />
-  Then run Jekyll using `jekyll serve --watch`, go to http://localhost:4000 for your site.
 
----
+### Development
 
-### Make it yours
+- `master` for development and pull requests.
+- `gh-pages` for the demo page; don't bother.
 
-1. I have extract most user specific information to `_config.yml`, you should be able to set up almost everything from it.
-2. Change about.md for blog intro.
-3. For domain settings, see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
 
----
+#### Running locally
 
-### GitHub Pages stuff
+1. Clone this repo
+2. Install required dependencies with [Bundler](http://bundler.io/)
 
-The `gh-pages` branch of this repository is [the project page](http://scribble.muan.co), which **should not** be used as your blog, so use `master` branch for your blog. This is assuming your blog repository will be called [your-username].github.io, if tis is not the case, you will need to delete the `gh-pages` repository and create a branch off the `master` branch. Hope that's clear.
+        bundle install
+3. Run the site with Jekyll
 
----
+        bundle exec jekyll serve --watch
+4. Visit the site at [http://localhost:4000](http://localhost:4000)
 
-### Options
 
-When writing a post, there are 3 options you can add to the header.
+### Author
 
-1. **disqus: y**<br />
-  If disqus is set to 'y', at the end of the post there will be a disqus thread, just like this one. To use disqus, you MUST [set up your own disqus account](http://disqus.com/).
+**Mathieu Mayer-Mazzoli**
+- <http://m3xm.github.io>
+- <http://twitter.com/mx3m>
+- <http://www.dribbble.com/m3xm>
 
-2. **share: y**<br />
-  An option for showing tweet and like button under a post.
+### Main Contributors
 
-3. **date**: 2013-05-06 18:07:17<br />
-  Date is not a required header since Jekyll reads the file name for date, this was added in only for the **signoff time**. (as shown at the end of this post) If you don't want the signoff time, go into `/includes/signoff.html` remove the `<span>`, and remove `{% include signoff.html %}` from `/layouts/post.html`.
+**Ross Allen**
+- <https://github.com/ssorallen>
 
----
+**Julien Rousseau**
+- <https://github.com/evarouss>
 
-### The end
 
-Like it? [Tell me](http://twitter.com/muanchiou).<br/>
-Question? [Use GitHub Issues](https://github.com/muan/scribble/issues).
+### License
+
+Open source. [MIT license](http://opensource.org/licenses/MIT).
