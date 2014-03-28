@@ -295,7 +295,13 @@ footer small { text-transform: uppercase; }
 ul.posts { color: #236CC1; overflow: hidden; }
 ul.posts li { border-bottom: 1px solid #000; }
 ul.posts li:last-child { border-bottom: none; }
-ul.posts li .p-wrap { background: #777; padding: 15px 10px; transition: all .15s ease-in; }
+ul.posts li .p-wrap {
+    background: #777;
+    padding: 15px 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: all .15s ease-in;
+}
 ul.posts li .p-wrap:hover { background: #3D3D3D; padding-left: 50px; }
 ul.posts li .p-wrap:active { background: #292929; }
 ul.posts li .p-wrap:hover::after { content:'\2192'; margin-left: 10px; }
