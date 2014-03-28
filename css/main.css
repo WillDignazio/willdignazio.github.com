@@ -27,7 +27,7 @@ html, body { width: 100%; height: 100%; }
 body {
   background: #000;
   color: #fff;
-  font: 14px 'Open Sans', sans-serif;
+  font: 12px 'EB Garamond', sans-serif;
   text-rendering: optimizeLegibility;
 }
 
@@ -223,7 +223,7 @@ header .h-wrap .close .lines::after {
 
 #off-canvas #bio p {
   font-family: 'Lora', serif;
-  line-height: 160%;
+  line-height: 100%;
   font-size: 100%;
   margin-bottom: 0;
 }
@@ -321,14 +321,14 @@ section#single-wrap {
 }
 
 section#single-wrap .single-content {
-  padding: 0 40px;
+  padding: 0px;
   overflow: hidden;
 }
 
 section#single-wrap .feat {
   text-align: center;
   border-bottom: 1px dotted #E0E1E6;
-  margin: 0 10px 25px;
+  margin: 0 0px 25px;
 }
 
 section#single-wrap .feat h5.page-date {
@@ -364,25 +364,25 @@ section#single-wrap .feat a.popup {
 section#single-wrap h1.page-title {
   color: #fff;
   font-size: 180%;
-  line-height: 135%;
-  font-family: 'Open Sans', sans-serif;
+  line-height: 100%;
+  font-family: 'EB Garamond', sans-serif;
   text-align: center;
-  margin: 0 0 60px;
+  margin: 0 0 20px;
   padding: 0 40px;
 }
 
 section#single-wrap p {
-  padding: 0 40px;
+  padding: 0 0px;
 }
 
 section#single-wrap ul,
 section#single-wrap ol {
-  padding: 10px 80px;
+  padding: 5px 40px;
 }
 
 section#single-wrap ul li,
 section#single-wrap ol li {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 section#single-wrap h1,
@@ -392,8 +392,8 @@ section#single-wrap h4,
 section#single-wrap h5,
 section#single-wrap h6 { 
   color: #fff;
-  padding: 0 40px; 
-  margin-top: 40px;
+  padding: 0px; 
+  margin-top: 10px;
 }
 
 section#single-wrap h1 { font-size: 150%; }
@@ -402,11 +402,11 @@ section#single-wrap h3 { font-size: 130%; font-weight: lighter; }
 section#single-wrap h4 { font-size: 120%; font-weight: lighter; text-decoration: underline; text-align: center; }
 section#single-wrap h5 { font-size: 110%; }
 section#single-wrap h6 { font-size: 100%; }
-section#single-wrap p { line-height: 160%; }
+section#single-wrap p { line-height: 100%; }
 
 section#single-wrap blockquote {
   font-size: inherit;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'EB Garamond', sans-serif;
   color: #333;
   border-left: 6px solid #39f;
   padding: 0 34px;
@@ -479,7 +479,7 @@ section#single-wrap blockquote p {
 }
 
 .highlight code span {
-  line-height: 150%;
+  line-height: 100%;
   font-size: 85%;
 }
 
@@ -501,7 +501,7 @@ section#single-wrap blockquote p {
   position: absolute;
   color: #444;
   margin-top: -42px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'EB Garamond', sans-serif;
   background-color: #fbfbfb;
   border: 1px solid #eee;
   padding: 4px 10px; 
