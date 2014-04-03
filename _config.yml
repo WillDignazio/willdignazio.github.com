@@ -11,7 +11,7 @@ permalink: :year/:month/:title.html
 pygments: true
 
 # Google Analytics
-ga_domain: willdignazio.github.io
+ga_domain: willdignazio.com
 ga_tracking_id: UA-39320049-1
 
 # Comments
