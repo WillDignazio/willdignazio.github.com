@@ -4,10 +4,10 @@ email:       wdignazio@gmail.com
 author:      Will Dignazio
 description: "weblog"
 baseurl:     ""
-url:         "http://www.willdignazio.com"
+url:         "http://www.digitalbebop.net"
 
 # Google analytics
-google_analytics:
+google_analytics: UA-57374691-1
 
 # Optional features
 animated:           false
@@ -18,7 +18,7 @@ show_post_footers:  false
 show_social_icons: false
 github_username: WillDignazio
 twitter_username: WillDignazio
-google_plus_id: 
+google_plus_id: 118049150885215451357
 linkedin_username: slackwill
 bitcoin_url:
 paypal_url:
@@ -27,6 +27,6 @@ flattr_button:
 # Build settings
 markdown:     kramdown
 permalink:    pretty
-paginate:     3
+paginate:     50
 sass:
   compressed: true

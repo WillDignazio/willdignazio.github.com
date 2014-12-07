@@ -14,7 +14,7 @@
 */
 
 body {
-  font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Garamond", "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
 }
 
 html, body {
@@ -98,8 +98,7 @@ body {
 }
 
 .posts .post {
-  margin-bottom: 0.75em;
-  padding-bottom: .375em;
+  padding-bottom: 0em;
   border-bottom: thin solid #f3f3f3;
 }
 
@@ -167,9 +166,10 @@ body {
 .meta,
 .post-meta {
   width: auto;
+  font-family: "Times New Roman", serif;
   font-size: 1rem;
   font-weight: 300;
-  margin: 0;
+  margin: 0em;
   padding: .25em 0;
   color: #7a7a7a;
   font-style: italic;
@@ -206,7 +206,7 @@ textarea.input {
 p {
   font-weight: 300;
   line-height: 1.5;
-  color: #333;
+  color: #000;
 }
 
 abbr {
@@ -262,9 +262,9 @@ h5,
 h6,
 .h6 {
   font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 900;
-  line-height: 1.2;
-  margin: 1em 0 0.5em;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0.1em 0 0m;
 }
 
 .social-icons {
@@ -294,47 +294,45 @@ h6,
   .post-meta {
     margin: 0;
     padding: 0;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .h1,
   h1 {
-    font-size: 3.250rem;
+    fopnt-size: 2rem;
   }
 
   .h2,
   h2 {
-    font-size: 2.298rem;
+    font-size: 1rem;
   }
 
   .h3,
   h3 {
-    font-size: 1.625rem;
+    font-size: 0.75rem;
   }
 
   .h4,
   h4 {
-    font-size: 1.150rem;
+    font-size: 0.5rem;
   }
 
   .p,
   p,
   li {
-    font-size: 1.25rem;
-    line-height: 1.8;
+    font-size: 1rem;
+    line-height: 1;
   }
 
   .small {
-    font-size: 1rem;
+    font-size: 0.70rem;
   }
 
   .post-link .post-title {
-    margin-top: 0.5em;
+    margin-top: 0em;
   }
 
   .posts .post {
-    margin-bottom: 1.333em;
-    padding-bottom: 0.666em;
     border-bottom: thin solid #f3f3f3;
   }
 
@@ -391,35 +389,33 @@ h6,
 @media screen and (min-width: 64em) {
   .h1,
   h1 {
-    font-size: 4.498rem;
+    font-size: 2rem;
   }
 
   .h2,
   h2 {
-    font-size: 3.18rem;
+    font-size: 1rem;
   }
 
   .h3,
   h3 {
-    font-size: 2.249rem;
+    font-size: 0.75rem;
   }
 
   .h4,
   h4 {
-    font-size: 1.591rem;
+    font-size: 0.5rem;
   }
 
   .posts .post-meta {
-    padding-bottom: .2em;
+    padding-bottom: 0em;
   }
 
   .post-link .post-title {
-    margin-top: .125em;
+    margin-top: 0em;
   }
 
   .posts .post {
-    margin-bottom: 2.666em;
-    padding-bottom: 1.333em;
     border-bottom: thin solid #f3f3f3;
   }
 
