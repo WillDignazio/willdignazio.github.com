@@ -1,24 +1,12 @@
 ---
-layout: default
+layout: layout
 ---
+{% include initiatives.html %}
 
-<div class="home">
-  <table>
-    <div class="posts">
-      {% for post in paginator.posts %}
-      <tr>
-	<div class="post">
- 	  <td><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></td>
-          <td>
-	    <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-              <span class="h2 post-title">{{ post.title }}</span>
-	    </a>
-	  </td>
-  	  <td align="right"><span class="post-summary">{{ post.summary }}</span></td>
-	</div>
-      </tr>
-      {% endfor %}
-    </div>
-  </table>
-  {% include pagination.html %}
-</div>
+{% include employment.html %}
+
+{% include education.html %}
+
+{% include skills.html %}
+
+{% include interests.html %}

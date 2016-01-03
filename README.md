@@ -1,176 +1,49 @@
-# Pixyll
 
-[pixyll.com](http://www.pixyll.com)
+# Vitae
 
-![Pixyll screenshot](https://cloud.githubusercontent.com/assets/1424573/3847467/134aa236-1e66-11e4-8421-4e8c122118dc.png)
+[![Build Status](https://secure.travis-ci.org/biomadeira/vitae.png?branch=gh-pages)](http://travis-ci.org/biomadeira/vitae)
 
-Pixyll is a simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff. It's mobile _first_, fluidly responsive, and delightfully lightweight.
+Personal homepage (curriculum vitae or resume) based on [João's](https://github.com/joaomoreno/resume).
+Vitae is built with [skeleton](http://getskeleton.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
+hosted in [Github pages](https://pages.github.com/).
 
-It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+## View the live demo
 
-中文版 <https://github.com/ee0703/pixyll-zh-cn>.
+[Vitae Live Demo](https://biomadeira.github.io/vitae)
 
-## Getting Started
 
-If you're completely new to Jekyll, I recommend checking out the documentation at <http://jekyllrb.com> or there's a tutorial by [Smashing Magazine](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/).
+## Screenshots
 
-### Installing Jekyll
+![resume page](https://raw.githubusercontent.com/biomadeira/vitae/gh-pages/assets/images/vitae_screen.png)
 
-If you don't have Jekyll already installed, you will need to go ahead and do that.
 
-```
-$ gem install jekyll
-```
+## How to use it
 
-#### Verify your Jekyll version
+Simply clone/fork this repository, and then run `jekyll serve` inside the directory.
+Edit the site attributes in *_config.yml* and edit the various entries in *_includes/*.
 
-It's important to also check your version of Jekyll since this project uses Native Sass which
-is [only supported by 2.0+](http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/).
+## Issues and contributing 
 
-```
-$ jekyll -v
-# This should be jekyll 2.0.0 or later
-```
+I have tested this install with Ruby v2.2.2p95 (Mac OS RVM) and Jekyll v3.0.0. If you run into any problems please log them on the [issue tracker](https://github.com/biomadeira/vitae/issues).
 
-### Fork, then clone
+Feel free pull-request your patches and fixes.
 
-Fork the repo, and then clone it so you've got the code locally.
 
-### Modify the _config.yml
+## Thanks 
 
-The `_config.yml` located in the root of the Pixyll directory contains all of the configuration details
-for the Jekyll site. The defaults are:
+A lot of the work had been already done by the Joao. Many thanks to him :smile:
 
-```yml
-# Site settings
-title: Pixyll
-email: your_email@example.com
-author: John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl: ""
-url: "http://pixyll.com"
+Profile picture from [pexels](https://www.pexels.com/photo/portrait-black-african-ethnicity-person-9494/).
 
-# Build settings
-markdown: kramdown
-permalink: pretty
-paginate: 3
-```
 
-### Jekyll Serve
+## Copyright & License
 
-Then, start the Jekyll Server. I always like to give the `--watch` option so it updates the generated HTML when I make changes.
+Copyright (C) 2015 - Released under the MIT License.
 
-```
-$ jekyll serve --watch
-```
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Now you can navigate to `localhost:4000` in your browser to see the site.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-### Using Github Pages
-
-You can host your Jekyll site for free with Github Pages. [Click here](https://pages.github.com/) for more information.
-
-#### A configuration tweak if you're using a gh-pages sub-folder
-
-In addition to your github-username.github.io repo that maps to the root url, you can serve up sites by using a gh-pages branch for other repos so they're available at github-username.github.io/repo-name.
-
-This will require you to modify the `_config.yml` like so:
-
-```yml
-# Site settings
-title: Repo Name
-email: your_email@example.com
-author: John Otander
-description: "Repo description"
-baseurl: "/repo-name"
-url: "http://github-username.github.io"
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-paginate: 3
-```
-
-This will ensure that the the correct relative path is constructed for your assets and posts. Also, in order to run the project locally, you will need to specify the blank string for the baseurl: `$ jekyll serve --baseurl ''`.
-
-##### If you don't want the header to link back to the root url
-
-You will also need to tweak the header include `/{{ site.baseurl }}`:
-
-```html
-<header class="site-header px2 px-responsive">
-  <div class="mt2 wrap">
-    <div class="measure">
-      <a href="{{ site.url }}/{{ site.baseurl }}">{{ site.title }}</a>
-      <nav class="site-nav right">
-        {% include navigation.html %}
-      </nav>
-    </div>
-  </div>
-</header>
-```
-
-A relevant Jekyll Github Issue: <https://github.com/jekyll/jekyll/issues/332>
-
-### Contact Form
-
-If you'd like to keep the contact form, which uses <http://forms.brace.io/>, you will need to update the email address.
-
-Currently, the `contact.md` has the following:
-
-```html
-<form action="https://forms.brace.io/johnotander@icloud.com" method="POST" class="form-stacked form-light">
-```
-
-Where it says `johnotander@icloud.com`, you will need to change that to the email that you wish to have the form data sent to. It will require you to fill the form out when you push it live for the first time so that you can confirm your email.
-
-### Page Animation
-
-If you would like to add a [fade-in-down effect](http://daneden.github.io/animate.css/), you can add `animated: true` to your `_config.yml`.
-
-### Put in a Pixyll Plug
-
-If you want to give credit to the Pixyll theme with a link to <http://pixyll.com> or my personal website <http://johnotander.com> somewhere, that'd be awesome. No worries if you don't.
-
-### Enjoy
-
-I hope you enjoy using Pixyll. If you encounter any issues, please feel free to let me know by creating an [issue](https://github.com/johnotander/pixyll/issues). I'd love to help.
-
-## Upgrading Pixyll
-
-Pixyll is always being improved by its users, so sometimes one may need to upgrade.
-
-#### Ensure there's an upstream remote
-
-If `git remote -v` doesn't have an upstream listed, you can do the following to add it:
-
-```
-git remote add upstream https://github.com/johnotander/pixyll.git
-```
-
-#### Pull in the latest changes
-
-```
-git pull upstream master
-```
-
-There may be merge conflicts, so be sure to fix the files that git lists if they occur. That's it!
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
-
-## Thanks to the following:
-
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
-* [Animate.css](http://daneden.github.io/animate.css/)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

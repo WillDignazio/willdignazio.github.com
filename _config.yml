@@ -1,32 +1,36 @@
-# Site settings
-title:       DigitalBebop
-email:       wdignazio@gmail.com
-author:      Will Dignazio
-description: "weblog"
-baseurl:     ""
-url:         "http://www.digitalbebop.net"
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://biomadeira.github.io/vitae
+author: Fábio Madeira
 
-# Google analytics
-google_analytics: UA-57374691-1
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Will Dignazio's Resume
+name: Will Dignazio
+email: wdignazio@gmail.com
+email_full: mailto:wdignazio@gmail.com
+website: digitalbebop.net
+website_full: https://www.digitalbebop.net/
+github: WillDignazio
+twitter: WillDignazio
+tel: +1 (724) 831-7693
+tel_full: tel:+7248317693
+address:
+postcode: 
+city:
+country:
 
-# Optional features
-animated:           false
-show_related_posts: false
-show_post_footers:  false
+google_domain: willdignazio.github.io
+google_analytics: UA-39320049-1
 
-# Social icons
-show_social_icons: false
-github_username: WillDignazio
-twitter_username: WillDignazio
-google_plus_id: 118049150885215451357
-linkedin_username: slackwill
-bitcoin_url:
-paypal_url:
-flattr_button:
-
-# Build settings
-markdown:     kramdown
-permalink:    pretty
-paginate:     50
-sass:
-  compressed: true
+# needed for travis-ci build
+exclude: [vendor]
